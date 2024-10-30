@@ -1,0 +1,23 @@
+getgenv().TesticleSilentAim = {
+  Settings = {
+    Toggled = true,
+    AimPart = "HumanoidRootPart",
+    HitChance = 100,
+    Highlight = true, 
+    
+    Prediction = {
+      Enabled = true,
+      Horizontal = 0.1196, -- X, Z
+      Vertical = 0.1196, -- Y
+    },
+    
+    Circle = { 
+      Visible = true, -- Change to true or false if you want
+      Color = Color3.fromRGB(255, 255, 255),
+      Transparency = 1,
+      Thickness = 1.5,
+      Radius = 90, -- Change circle size here
+      Filled = false,
+    },
+  },
+}
